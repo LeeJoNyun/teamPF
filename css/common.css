@@ -1,6 +1,6 @@
 #wrap {
   width: 100%;
-  max-width: 1600px;
+  min-width: 1600px;
   margin: 0 auto;
   position: relative;
 }
@@ -30,7 +30,7 @@ h2 {
 .local-panel:after {
   content: "";
   display: block;
-  width: 4rem;
+
   position: fixed;
   top: 0;
   right: 0;
@@ -41,7 +41,7 @@ h2 {
   display: block;
   position: relative;
   z-index: 3;
-  bottom: 11px;
+  bottom: 183px;
   right: 20px;
   padding: 0.25rem;
   width: 2.5rem;
@@ -108,7 +108,7 @@ h2 {
   top: 60px;
 }
 #footer .inner {
-  width: 1250px;
+  /* width: 1250px; */
   margin: 0 auto;
   position: relative;
 }
